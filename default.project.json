@@ -1,0 +1,6 @@
+{
+	"name": "echo-middleware",
+	"tree": {
+		"$path": "src"
+	}
+}
