@@ -4,11 +4,10 @@ description = "Provides a signal that broadcasts actions that are dispatched to 
 version = "1.0.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
-exclude = ["wally.exe"]
+exclude = ["wally.exe", "aftman", "*.zip"]
 
 [dependencies]
-t = "osyrisrblx/t@3.0.0"
-Llama = "chipioindustries/llama@1.2.4"
+makeStandalone = "chipioindustries/make-standalone@1.0.5"
 Signal = "chipioindustries/signal@1.1.1"
 
 [dev-dependencies]
